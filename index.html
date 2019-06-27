@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Landing Page Website Tutorial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="css/style.css" rel="stylesheet" />
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" role="navigation">
+    <div class="container-fluid"><!--Container-fluid-->
+      <!--Navbar head-->
+      <div class="navbar-head">
+        <!--Button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--End of button-->
+      
+        <a class="navbar-brand" href="#"><img src="downloads/screenlogo.png" ;width="70px" ; height="70px" ; /></a>
+      </div>
+      <!--End of navbar-head-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MAGAZINE</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              DROPDOWN
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">CONFRENCES</a>
+              <a class="dropdown-item" href="#">PORTFOLIO</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">RANKING</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      <!--End of collpase navbar-collpase-->
+    </div>
+    <!--End of container-fluid-->
+  </nav>
+  <!--End of navigation bar-->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="downloads\wallstreet.jpg" alt="wallstreet Image">
+      </div>
+      <div class="carousel-item">
+        <img src="downloads\wallstreet.jpg" alt="Wallstreet Image">
+      </div>
+      <div class="carousel-item">
+        <img src="downloads\mumbai.jpg" alt="Mumbai Stock exchange Image">
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <!--End of crausol-->
+  <div class="Landing-text mx-auto d-block">
+    <h1>FORTUNE 500 GLOBAL MAGAZINE - 2019</h1>
+  </div>
+  <!--End of landing text-->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="downloads/fimg.jpg">
+        </div>
+        <div class="col-sm-6 text-center">
+          <h2>Our Vision</h2>
+          <p class="lead">
+            The Fortune 500 is an annual list compiled
+            and published by Fortune magazine that ranks
+            500 of the largest United States corporations
+            by total revenue for their respective fiscal
+            years. The list includes publicly held companies,
+            along with privately held companies for which
+            revenues are publicly available.
+          </p>
+          <p class="lead">
+            As of 2019, the Fortune 500 companies
+            represent approximately two-thirds of the
+            United States's Gross Domestic Product with
+            approximately $13.7 trillion in revenue, $1.1
+            trillion in profits, and $22.6 trillion in
+            total market value. These numbers also account
+            for approximately 17% of the gross world product.
+            The companies collectively employ a total of
+            28.7 million people worldwide, or 0.4% of
+            the Earth's total population.
+          </p>
+
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </div>
+  <!--end of padding-->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>About Google</h4>
+          <article>Every day, hundreds of millions of
+            Internet users type search terms
+            into the address bar of their browsers
+            and come face to face with meaningful
+            information. While this everyday task
+            may seem simple and unremarkable, it
+            would be impossible without the innovative
+            thinking of one Internet company: Google.
+            Known around the world as a leader in online
+            search, Google has grown into one of the biggest
+            companies on the Internet.
+          </article>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="downloads\google.jpg" alt="google" width=250px; height=200px; />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>About Walmart</h4>
+          <article>Walmart is a multinational retailer that
+            has its roots in the United States of America.
+            It runs department stores mostly aimed at middle
+            class and lower-middle class people. Today, Walmart
+            is the second largest public corporation in the world
+            according to Fortune Global 500. It employees more
+            than 2 million employees and is one of the most
+            valuable companies in the world. It is headquartered in
+            Bentonville, Arkansas.
+          </article>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="downloads\walmart.jpg" alt="walmart" width=260px; height=240px; />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="amazon">
+          <h4>About amazon</h4>
+          <article>At first Amazon was started in the
+            name Cadabra in 1994 by Jeff Bezos.
+            It went online as amazon.com in 1995.
+            When started it was a small online store
+            and today Amazon is the largest online
+            retailer in the world. The company’s name
+            amazon has become as big as the amazon river.
+            It is the inspiration for other several online
+            businesses and Amazon.com is the world’s third
+            -largest information technology company by revenue.
+          </article>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="downloads\amazon.jpg" alt="amazon" width=250px; height=200px; />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>About Samsung</h4>
+          <article>
+            Samsung comprises of numerous affiliated
+            businesses with shareholders holding a large
+            proportion of shares. This prestigious company
+            is the global leader and an award-winning innovator
+            producing smarter gadgets every day. The multinational
+            company is the largest in South Korea holding multiple
+            subsidiaries like Samsung Electronics, Samsung Heavy
+            Industries, Samsung Life Insurance, Samsung Electro-
+            mechanics and more. Have a captivating experience
+            through our infographic, and quickly grasp essential
+            insights & data that Samsung holds.
+          </article>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="downloads\samsung.jpg" alt="samsung" width=250px; height=200px; />
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </div>
+  <!--end of padding-->
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h4>Here is the good thing about Fortune 500</h4>
+          <p>
+            Fortune 500 is the business magazine, which published
+            the list of companies which make a impact on world every
+            year with their innovation, marketing, proffit.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img src="downloads/fortunelist.jpg" width="70px" ; height="150px" ; />
+        </div>
+
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </div>
+  <!--end of padding-->
+  <footer class="container-fluid text-centre">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact us</h3>
+        <br>
+        <h4>Our address and contact info here.</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+      <div class="col-sm-4">
+        <h3>Copyright</h3>
+      </div>
+    </div>
+  </footer>
+  <!--end of footer class-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

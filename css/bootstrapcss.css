@@ -1,32 +1,4 @@
 
- /*---   
-div{
-    margin-left:12cm;
-}
-
-blockquote{
-margin-left:12cm;
-width: 14cm;
-height: 1cm;
-border: 2px solid white;
-text-align: center;
-
-
-}
-.wrap{
-width:600px;
-background:red;
-}
-.content{
-background:yellowgreen;
-float:left;
-}
-aside{
-margin-left:15cm;
-margin:auto;
-background:blue;
-width:400px;
-}--*/
 body{
 	height:100%;
 	width:100%;
@@ -80,6 +52,7 @@ body{
 	background-size: cover;
 
 }
+
 footer{
 	background-color:#23415c;
 	width:100%;
